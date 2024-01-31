@@ -5,7 +5,7 @@ import './Board.css';
 export default class Board extends Component {
   
   renderSquare(i){
-    return <Square squareNumber={i}/>
+    return <Square value={i}/>
   }
   
   render() {
