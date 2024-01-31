@@ -3,9 +3,9 @@ import React from 'react'
 export class Square extends React.Component{
   render(){
     return(
-      <div>
-        <p>Square Components</p>
-      </div>
+      <button className='square'>
+        <p>square</p>
+      </button>
     )
   }
 }
