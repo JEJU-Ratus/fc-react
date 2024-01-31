@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import Square from './Square'
-
+import React, { Component } from 'react';
+import Square from './Square';
+import './Board.css';
 
 export default class Board extends Component {
   
