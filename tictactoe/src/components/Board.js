@@ -9,8 +9,6 @@ const Board = ({squares, onClick}) => {
               onClick={() => onClick(i)} />
   }
 
-
-
   return (
       <div>
         <div className='board-row'>
