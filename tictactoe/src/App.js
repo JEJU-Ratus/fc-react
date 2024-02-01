@@ -58,7 +58,6 @@ function App() {
     )
   })
 
-  console.log(history);
   return (
     <div className="game">
       <div className="game-board">
