@@ -1,9 +1,9 @@
 import './reset.css';
 import './App.css';
 import Board from './components/Board';
+import { useState } from 'react';
 
 function App() {
-<<<<<<< HEAD
   const [history, setHistory] = useState([{squares: Array(9).fill(null)}]);
   const [xIsNext, setXIsNext] = useState(true);
 
@@ -58,20 +58,17 @@ function App() {
     )
   })
 
-=======
->>>>>>> parent of 0dc48ac (refactor : 코드를 부모요소로 전환, feat : 추가 history 저장)
+  console.log(history);
   return (
     <div className="game">
       <div className="game-board">
-        <Board />
+        <Board 
+        squares={current.squares}
+        onClick={(i)=>handleClick(i)} />
       </div>
       <div className="game-info">
-<<<<<<< HEAD
         <div className='status'>{status}</div>
         <ol>{moves}</ol>
-=======
-
->>>>>>> parent of 0dc48ac (refactor : 코드를 부모요소로 전환, feat : 추가 history 저장)
       </div>
     </div>
   );
