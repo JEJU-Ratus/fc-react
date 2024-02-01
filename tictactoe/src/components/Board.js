@@ -5,10 +5,12 @@ import './Board.css';
 const Board = () => {
   
   const [squares, setSquares] = useState(Array(9).fill(null));
+  const [xIsNext, setxIsNext] = useState(true)
 
   const handleClick = (i) => {
     const newSquares = squares.slice();
-    newSquares[i] = 'X';
+    newSquares[i] = xIsNext? 'X':'O';
+    setxIsNext(!xIsNext)
     setSquares(newSquares);
   }
 
