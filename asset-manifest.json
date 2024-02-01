@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fc-react/tree/main/tictactoe/static/css/main.013bf9e4.css",
-    "main.js": "/fc-react/tree/main/tictactoe/static/js/main.475949a1.js",
-    "static/js/787.32b887b6.chunk.js": "/fc-react/tree/main/tictactoe/static/js/787.32b887b6.chunk.js",
-    "index.html": "/fc-react/tree/main/tictactoe/index.html",
-    "main.013bf9e4.css.map": "/fc-react/tree/main/tictactoe/static/css/main.013bf9e4.css.map",
-    "main.475949a1.js.map": "/fc-react/tree/main/tictactoe/static/js/main.475949a1.js.map",
-    "787.32b887b6.chunk.js.map": "/fc-react/tree/main/tictactoe/static/js/787.32b887b6.chunk.js.map"
+    "main.css": "/fc-react/static/css/main.013bf9e4.css",
+    "main.js": "/fc-react/static/js/main.067de8dc.js",
+    "static/js/787.32b887b6.chunk.js": "/fc-react/static/js/787.32b887b6.chunk.js",
+    "index.html": "/fc-react/index.html",
+    "main.013bf9e4.css.map": "/fc-react/static/css/main.013bf9e4.css.map",
+    "main.067de8dc.js.map": "/fc-react/static/js/main.067de8dc.js.map",
+    "787.32b887b6.chunk.js.map": "/fc-react/static/js/787.32b887b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.013bf9e4.css",
-    "static/js/main.475949a1.js"
+    "static/js/main.067de8dc.js"
   ]
 }
