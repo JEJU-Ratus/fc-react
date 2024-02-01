@@ -10,7 +10,7 @@ const Board = () => {
   const handleClick = (i) => {
     const newSquares = squares.slice();
     newSquares[i] = xIsNext? 'X':'O';
-    setxIsNext(!xIsNext)
+    setxIsNext(prev => !prev)
     setSquares(newSquares);
   }
 
