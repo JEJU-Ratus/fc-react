@@ -1,10 +1,29 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 import './reset.css';
+import A from './components/A';
+import B from './components/B';
 
 function App() {
+
+  const [value, setValue] = useState("")
+  const [posts, setPosts] = useState([])
+
+  useEffect(()=>{
+    fetch('https://jsonplaceholder.typicode.com/posts')
+    .then(response => response.json())
+    .then(posts => setPosts(posts))
+  }, [])
+
   return (
-    <div>
-      
+    <div style={{padding : '1rem'}}>
+      <input 
+      value={value}
+      onChange={e=> setValue(e.target.value)}></input>
+      <div style={{display : 'flex'}}>
+        <A />
+        <B />
+      </div>
     </div>
   );
 }
