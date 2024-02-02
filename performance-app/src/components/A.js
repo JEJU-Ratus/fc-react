@@ -1,15 +1,20 @@
 import React from 'react'
-import './A.css'
+import './common.css';
+
 const A = ({message, posts}) => {
   return (
     <div>
       <h1>A Component</h1>
       <p>{message}</p>
       <ul>
-        {posts.map(post =>
+        {posts.map(post => {
+          return (
           <li key={post.id}>
             {post.title}
-          </li>)}
+          </li>
+          )
+        }
+        )}
       </ul>
     </div>
   )

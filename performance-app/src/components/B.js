@@ -1,5 +1,5 @@
 import React from 'react';
-import './B.css';
+import './common.css';
 
 const Message = ({message}) => {
   return <p>{message}</p>
