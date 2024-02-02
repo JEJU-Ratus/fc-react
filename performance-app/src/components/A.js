@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './A.css'
 const A = ({message, posts}) => {
   return (
     <div>

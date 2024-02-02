@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './B.css';
 
-const B = () => {
+const B = ({message, posts}) => {
+
+
   return (
-    <div>B</div>
+    <div>
+      <h1>B Component</h1>
+    </div>
   )
 }
 
