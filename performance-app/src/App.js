@@ -21,7 +21,7 @@ function App() {
       value={value}
       onChange={e=> setValue(e.target.value)}></input>
       <div style={{display : 'flex'}}>
-        <A />
+        <A message={value}/>
         <B />
       </div>
     </div>
